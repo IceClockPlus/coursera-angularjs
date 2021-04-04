@@ -10,4 +10,10 @@ angular.module('myFirstApp', [])
     };
 });
 
+angular.module('calculadorNombre',[])
+.controller('calculadorNombreController',function($scope){
+    $scope.nombre = "";
+    $scope.valorTotal = 0;
+});
+
 } )();
